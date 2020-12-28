@@ -1,5 +1,5 @@
 def derive(a, b):
-    return str(a*b) + "^" + str(b-1)
+    return str(a*b) + "x^" + str(b-1)
 
 
 
