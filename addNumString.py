@@ -15,8 +15,20 @@ print(addNumString("2", "7"))
 
 #   Solution 2:
 
+
 def addNumString2(*values):
     return str(sum(int(v or 0) for v in values))
 
+
 print(addNumString2("", "8"))
 print(addNumString2("2", "8"))
+
+#   Solution 3:
+
+
+def addNumString3(str1, str2):
+    return str(int(str1 or 0) + int(str2 or 0))
+
+
+print(addNumString3("", "8"))
+print(addNumString3("2", "8"))
